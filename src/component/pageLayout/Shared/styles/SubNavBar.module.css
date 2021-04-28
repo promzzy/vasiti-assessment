@@ -1,0 +1,18 @@
+.SubNavLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    height: 50px;
+    box-shadow: 2px 2px 3px 1px rgb(232, 232, 232);
+
+}
+.subNavItems{
+    margin: 0 15px;
+    padding: 3px 6px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.23px;
+    letter-spacing: 5%;
+}
