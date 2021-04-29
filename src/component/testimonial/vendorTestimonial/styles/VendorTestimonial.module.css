@@ -54,3 +54,32 @@
     color: #474747;
     text-overflow: clip;
 }
+
+
+@media (max-width: 1108px) {
+    .textBody{
+        font-size: 14px;
+    }
+
+    .gridContainner{
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+        justify-content: center;
+        grid-gap: 15px;
+        justify-content: center;
+    }
+
+    .vendor{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 720px) {
+    .gridContainner{
+        display: grid;
+        grid-template-columns: 400px;
+        justify-content: center;
+        grid-gap: 5px;
+        justify-content: center;
+    }
+}

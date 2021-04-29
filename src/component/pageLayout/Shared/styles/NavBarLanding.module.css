@@ -64,3 +64,8 @@ color: #FFFFFF;
 .logo{
 
 }
+@media (max-width: 870px) {
+    .navBarContainner{
+        display: none;
+    }
+}

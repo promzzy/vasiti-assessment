@@ -30,3 +30,9 @@ letter-spacing: 0.05em;
 color: #000000;
 margin: 0px 24px;
 }
+
+@media (max-width: 870px) {
+    .SubNavLinks{
+        display: none;
+    }
+}

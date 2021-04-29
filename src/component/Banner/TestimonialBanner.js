@@ -14,7 +14,7 @@ export default function TestimonialBanner(){
                         Here is what customers and and vendorsare saying about us, you can share your stories with us too.
                     </p>
                 </div>
-                <div>
+                <div className={styles.bannerImage}>
                     <img src={testimonialBanner} alt="Banner" className={styles.image} />
                 </div>
 

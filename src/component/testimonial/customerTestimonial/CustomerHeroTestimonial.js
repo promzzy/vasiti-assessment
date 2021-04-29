@@ -21,7 +21,7 @@ export default function CustomerHeroTestimonial({filterTestimonial}){
                            {` ${heroCustomer.firstName} ${heroCustomer.lastName} `}
                         </h3>
                 <span className={styles.clientType}>{heroCustomer.clientType}</span>
-                <p>
+                <p className={styles.TestimonialText}>
                     {heroCustomer.message}
                 </p>
 

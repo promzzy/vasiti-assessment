@@ -1,6 +1,6 @@
 .bannerBg{
     background: #FFFFFF;
-    height: 568px;
+    /* height: 568px; */
     width: 100%;
 }
 
@@ -9,7 +9,7 @@
     flex-direction: row;
     /* position: absolute; */
     width: 100%px;
-    height: 568px;
+    /* height: 568px; */
     left: 173px;
     /* top: 158px; */
 }
@@ -24,16 +24,89 @@ width: 100%;
     text-transform: capitalize;
     margin: 0;
 }
+.image{
+    object-fit: contain;
+}
 .bnnerText{
-    font-weight: 400;
+    font-weight: 30;
     font-size: 18px;
     line-height: 31px;
     letter-spacing: 2%;
+    text-overflow: clip;
 }
+.bannerImage{
+    
+}
+
+
 .textContainner{
     width: 711px;
     margin-left: 174px;
     flex-direction: column;
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 1270px) {
+
+
+    .textContainner{
+        width: 411px;
+        margin-left: 174px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .bannerHeader{
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: -3%;
+        text-transform: capitalize;
+        margin: 0;
+    }
+
+    
+}
+
+
+@media (max-width: 1000px) {
+
+
+    .bannerHeader{
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: -3%;
+        text-transform: capitalize;
+        margin: 0;
+    }
+    .textContainner{
+        width: 300px;
+        margin-left: 100px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .BannerHero{
+        display: flex;
+        flex-direction: column;
+        /* position: absolute; */
+        width: 100%px;
+        /* height: 568px; */
+        left: 173px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image{
+        width: 400px;
+    }
+    
+
+    
 }
