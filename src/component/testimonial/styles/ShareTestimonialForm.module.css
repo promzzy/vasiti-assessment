@@ -1,0 +1,14 @@
+.background{
+    background: white;
+    height: 700px;
+    width: 100%;
+}
+.formContainner{
+    width: 527px;
+height: 829px;
+left: 0px;
+top: 0px;
+margin: 0 auto;
+background: #464242;
+border-radius: 16px;
+}

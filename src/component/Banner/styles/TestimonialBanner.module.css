@@ -1,5 +1,5 @@
 .bannerBg{
-    background: #E5E5E5;
+    background: #FFFFFF;
     height: 568px;
     width: 100%;
 }
@@ -7,12 +7,33 @@
 .BannerHero{
     display: flex;
     flex-direction: row;
-    position: absolute;
-    width: 1200px;
+    /* position: absolute; */
+    width: 100%px;
     height: 568px;
     left: 173px;
-    top: 158px;
+    /* top: 158px; */
 }
 .BannerHero >*{
 width: 100%;
+}
+.bannerHeader{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -3%;
+    text-transform: capitalize;
+    margin: 0;
+}
+.bnnerText{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 2%;
+}
+.textContainner{
+    width: 711px;
+    margin-left: 174px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
 }

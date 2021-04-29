@@ -8,12 +8,5 @@ export const NavBarlink = [
     },
     {
         title: "contact",
-    },
-    {
-        title: "login",
-    },
-    {
-        title: "signUp",
-        classN: "signUpBtn"
-    },
+    }
 ]

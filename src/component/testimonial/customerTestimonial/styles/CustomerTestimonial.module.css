@@ -1,0 +1,72 @@
+.CustomerTestimonialsBg{
+    background-color: rgb(238, 234, 234);
+    width: 100%;
+}
+
+.gridContainner{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    grid-gap: 10px;
+    justify-content: center;
+}
+.customer{
+    padding: 25px;
+}
+
+.customerName{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.05px;
+    letter-spacing: 2%;
+    color: #474747;
+    margin: 5px;
+}
+
+.customerCity{
+    font-weight: 500;
+    line-height: 18.15px;
+    letter-spacing: 5%;
+    font-size: 15px;
+    font-style: normal;
+    font: inter;
+    color: #535353;
+    margin: 5px;
+}
+
+.clientType{
+    width: 95px;
+    height: 30px;
+    background: #EEF8FF;
+    border-radius: 4px;
+    padding: 4px 5px;  
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #0D019A;
+}
+.textBody{
+width: 300px;
+height: 264px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+letter-spacing: 0.02em;
+
+color: #474747;
+}
+
+@media (max-width: 1108px) {
+    .textBody{
+        font-size: 14px;
+    }
+}

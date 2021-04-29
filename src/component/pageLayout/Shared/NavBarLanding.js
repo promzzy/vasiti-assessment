@@ -14,9 +14,12 @@ export default function NavBarLanding(){
                 <ul className={styles.navLinks}>
                     {
                         NavBarlink.map((links, index) => (
-                            <li key={index} className={[styles.navItems]}>{links.title}</li>
+                            <li key={index} className={styles.navItems}>{links.title}</li>
+                            
                         ))
                     }
+                    <li className={styles.navItems}>login</li>
+                    <li className={styles.signUpBtn}>signUp</li>
                 </ul>
             </div>
 

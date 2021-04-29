@@ -1,0 +1,79 @@
+.footBannerBg{
+    /* position: absolute; */
+width: 100;
+height: 370px;
+/* left: 0px; */
+/* top: 5031px; */
+background: #25201D;
+}
+
+.footBannerContainner{
+    display: flex;
+    flex-direction: row;
+    margin: 0 220px;
+}
+
+.footImageContainner{
+    width: 437px;
+    height: 437px;
+    margin-top: -35px;
+}
+.image{
+    object-fit: contain;
+    width: 100%;
+}
+.textContainer{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    padding: 0 50px;
+}
+
+.Footheader{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -3%;
+    margin: 0;
+}
+
+.textbody{
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.input{
+    width: 368px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+.input::placeholder{
+    padding: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.subscribeForm{
+    display: flex;
+    position: relative;
+}
+
+.subscribeBtn{
+    position: absolute;
+    right: 40px;
+    bottom: 10px;
+    top: 10px;
+    text-transform: uppercase;
+}
+.subscribeBtn:hover{
+    box-shadow: 2px 2px 2px 2px white;
+}

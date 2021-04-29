@@ -1,0 +1,56 @@
+.vendorTestimonialsBg{
+    background-color: rgb(238, 234, 234);
+    width: 100%;
+}
+
+.gridContainner{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    grid-gap: 10px;
+}
+.vendor{
+    padding: 20px;
+    margin: 50px 0;
+}
+.customerName{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.05px;
+    letter-spacing: 2%;
+    color: #474747;
+    font-style: normal;
+    font: Inter;
+    text-transform: capitalize;
+    text-overflow: clip;
+    margin: 5px;
+}
+.city{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 5%;
+    line-height: 18.15px;
+    text-transform: capitalize;
+}
+.clientType{
+    width: 75px;
+    height: 30px;
+    background: #F0FFEE;
+    border-radius: 4px;
+    padding: 3px 6px;
+    font-size: 13px;
+    line-height: 15.73px;
+    letter-spacing: 2%;
+    font-weight: 500;
+    color: #049A01;
+}
+.textBody{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    font-style: normal;
+    font: Inter;
+    color: #474747;
+    text-overflow: clip;
+}
